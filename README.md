@@ -1,7 +1,7 @@
 # Small-Api-Project
 
 ## Overview 
-This project uses JDeepSeek API to convert numbers into words in Java.
+This project uses DeepSeek API to convert numbers into words in Java.
 
 ---
 
@@ -21,6 +21,8 @@ This project uses JDeepSeek API to convert numbers into words in Java.
 
    ```bash
    javac -cp lib/gson-2.11.0.jar -d bin src/*.java
+
+   ```bash
    java -cp "bin;lib/gson-2.11.0.jar" ConvertNumberToWords
 
 ## Credits
